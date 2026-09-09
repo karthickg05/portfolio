@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b1020">
+  <meta name="description" content="Karthick Ganesan — Computer Science & Engineering student, developer and data science enthusiast.">
+  <title>Karthick Ganesan | Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="cursor-glow"></div>
+
+  <header class="nav-wrap">
+    <nav class="nav container">
+      <a class="brand" href="#home" aria-label="Karthick home">
+        <span class="brand-mark">KG</span>
+        <span>Karthick<span class="accent">.</span></span>
+      </a>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="nav-actions">
+        <button class="icon-btn" id="themeToggle" aria-label="Toggle theme">
+          <span id="themeIcon">☾</span>
+        </button>
+        <a class="nav-cta" href="#contact">Let's talk <span>↗</span></a>
+        <button class="menu-btn" id="menuBtn" aria-label="Open navigation">☰</button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero section container">
+      <div class="hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="status-dot"></span> Open to opportunities</div>
+          <h1>Building <span class="gradient-text">useful digital experiences</span> with code & data.</h1>
+          <p class="hero-sub">
+            Computer Science & Engineering student focused on software development,
+            web technologies and data science. I enjoy turning practical problems into clean,
+            accessible solutions.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary magnetic" href="#projects">Explore my work <span>↓</span></a>
+            <a class="btn btn-ghost magnetic" href="#contact">Contact me <span>↗</span></a>
+          </div>
+
+          <div class="micro-stats">
+            <div><strong>8.45</strong><span>CGPA</span></div>
+            <div><strong>3</strong><span>Internships</span></div>
+            <div><strong>3</strong><span>Featured projects</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal delay-1">
+          <div class="orbit orbit-a"></div>
+          <div class="orbit orbit-b"></div>
+          <div class="profile-card tilt">
+            <div class="profile-top">
+              <span class="pill">CSE • 2023–Present</span>
+              <span class="mini-dot"></span>
+            </div>
+            <div class="avatar-ring">
+              <div class="avatar">KG</div>
+            </div>
+            <h2>Karthick Ganesan</h2>
+            <p>Developer · Data Science Enthusiast</p>
+            <div class="stack-tags">
+              <span>Python</span><span>JavaScript</span><span>React</span><span>Firebase</span>
+            </div>
+            <div class="terminal">
+              <div class="terminal-bar"><i></i><i></i><i></i><span>karthick.dev</span></div>
+              <pre><code><span class="code-key">const</span> focus = [
+  <span class="code-str">"build"</span>,
+  <span class="code-str">"learn"</span>,
+  <span class="code-str">"ship"</span>
+];</code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-cue"><span></span> Scroll to explore</div>
+    </section>
+
+    <section id="about" class="section container">
+      <div class="section-head reveal">
+        <div>
+          <span class="section-kicker">01 / ABOUT</span>
+          <h2>A curious engineer with a <span class="gradient-text">practical mindset.</span></h2>
+        </div>
+        <p>Strong foundations in software development, web technologies, databases and data science.</p>
+      </div>
+
+      <div class="about-grid">
+        <article class="glass-card about-main reveal">
+          <div class="card-icon">✦</div>
+          <h3>Who I am</h3>
+          <p>
+            I’m a Computer Science and Engineering student at PSNA College of Engineering and Technology,
+            passionate about building practical, real-world solutions through innovative technologies.
+            My interests sit at the intersection of web development, programming, databases and data-driven problem solving.
+          </p>
+          <div class="signature">Karthick Ganesan</div>
+        </article>
+
+        <div class="about-side">
+          <article class="glass-card reveal">
+            <span class="number">01</span>
+            <h3>Build</h3>
+            <p>Web apps, management systems and interactive tools that solve concrete workflow problems.</p>
+          </article>
+          <article class="glass-card reveal delay-1">
+            <span class="number">02</span>
+            <h3>Analyze</h3>
+            <p>Data cleaning, visualization, exploratory analysis and predictive modeling with Python.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section section-muted">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="section-kicker">02 / EXPERIENCE</span>
+            <h2>Learning by <span class="gradient-text">building.</span></h2>
+          </div>
+          <p>Hands-on experience across Python, data science, analytics and application development.</p>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-mark">01</div>
+            <div class="timeline-content">
+              <div class="timeline-meta"><span>Jan 2025</span><span>Internship</span></div>
+              <h3>Python Programming Intern — Code Alpha</h3>
+              <p>Developed automated Python scripts, designed a basic chatbot application, and built a Hangman game using core Python concepts.</p>
+              <div class="chip-row"><span>Python</span><span>Automation</span><span>Chatbot</span></div>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal delay-1">
+            <div class="timeline-mark">02</div>
+            <div class="timeline-content">
+              <div class="timeline-meta"><span>Jun 2025 – Jul 2025</span><span>Internship</span></div>
+              <h3>Data Science Intern — Prodigy InfoTech</h3>
+              <p>Worked on global population visualization, Titanic EDA, decision-tree prediction models and Twitter sentiment analysis using NLP techniques.</p>
+              <div class="chip-row"><span>Pandas</span><span>EDA</span><span>Decision Tree</span><span>NLP</span></div>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal delay-2">
+            <div class="timeline-mark">03</div>
+            <div class="timeline-content">
+              <div class="timeline-meta"><span>Jul 2026</span><span>Internship</span></div>
+              <h3>Data Science & Data Analyst Intern (Python) — Vebbox Software Solution</h3>
+              <p>Handled data cleaning, preprocessing and exploratory analysis; developed visualization dashboards and analytical reports; applied statistical techniques to derive actionable insights.</p>
+              <div class="chip-row"><span>Python</span><span>Visualization</span><span>Statistics</span><span>Analytics</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section container">
+      <div class="section-head reveal">
+        <div>
+          <span class="section-kicker">03 / SKILLS</span>
+          <h2>My toolkit, <span class="gradient-text">layer by layer.</span></h2>
+        </div>
+        <p>Click a category to explore the stack.</p>
+      </div>
+
+      <div class="skills-layout reveal">
+        <div class="skill-tabs" role="tablist">
+          <button class="skill-tab active" data-skill="programming">Programming</button>
+          <button class="skill-tab" data-skill="web">Web</button>
+          <button class="skill-tab" data-skill="data">Data</button>
+          <button class="skill-tab" data-skill="cloud">Database & Cloud</button>
+          <button class="skill-tab" data-skill="tools">Tools</button>
+        </div>
+        <div class="skill-panel">
+          <div id="skillPanel"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section section-muted">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="section-kicker">04 / PROJECTS</span>
+            <h2>Selected <span class="gradient-text">work.</span></h2>
+          </div>
+          <p>Projects that demonstrate product thinking, frontend skills and data-oriented problem solving.</p>
+        </div>
+
+        <div class="project-filter reveal">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="web">Web</button>
+          <button class="filter-btn" data-filter="data">Data</button>
+          <button class="filter-btn" data-filter="system">Systems</button>
+        </div>
+
+        <div class="project-grid" id="projectGrid">
+          <article class="project-card featured reveal" data-category="web system">
+            <div class="project-visual billing">
+              <div class="mock-window">
+                <div class="mock-head"><span></span><span></span><span></span></div>
+                <div class="mock-body">
+                  <div class="mock-chart"></div>
+                  <div class="mock-line long"></div>
+                  <div class="mock-line"></div>
+                  <div class="mock-line short"></div>
+                  <div class="mock-total">₹ 4,850</div>
+                </div>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-top"><span>01 / WEB APP</span><span>2026</span></div>
+              <h3>Smart Billing Web Application</h3>
+              <p>Billing and management system for a two-wheeler mechanic shop with dynamic bill creation, invoice PDF download/printing, analytics and Firebase-backed records.</p>
+              <div class="chip-row"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Firebase</span></div>
+            </div>
+          </article>
+
+          <article class="project-card reveal delay-1" data-category="web">
+            <div class="project-visual flow">
+              <div class="flow-node n1">Start</div>
+              <div class="flow-arrow">↓</div>
+              <div class="flow-node n2">Condition?</div>
+              <div class="flow-branches"><span>Yes</span><span>No</span></div>
+              <div class="flow-node n3">Loop / Action</div>
+            </div>
+            <div class="project-body">
+              <div class="project-top"><span>02 / INTERACTIVE</span><span>2025</span></div>
+              <h3>Flowchart Simulator</h3>
+              <p>Web-based flowchart simulator supporting loops and conditional logic with step-by-step execution and real-time simulation.</p>
+              <div class="chip-row"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            </div>
+          </article>
+
+          <article class="project-card reveal delay-2" data-category="system">
+            <div class="project-visual ems">
+              <div class="ems-card"><span>STUDENT</span><strong>Academic Records</strong><small>Manage • Search • Update</small></div>
+              <div class="ems-card offset"><span>DATABASE</span><strong>MySQL</strong><small>Structured records</small></div>
+            </div>
+            <div class="project-body">
+              <div class="project-top"><span>03 / FULL STACK</span><span>2024</span></div>
+              <h3>Educational Management System</h3>
+              <p>Full-stack system for student records and academic activities, designed to improve workflow efficiency and minimize manual paperwork.</p>
+              <div class="chip-row"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>MySQL</span></div>
+            </div>
+          </article>
+
+          <article class="project-card data-card reveal" data-category="data">
+            <div class="project-visual data-viz">
+              <div class="bar b1"></div><div class="bar b2"></div><div class="bar b3"></div><div class="bar b4"></div><div class="bar b5"></div>
+              <div class="viz-line"></div>
+            </div>
+            <div class="project-body">
+              <div class="project-top"><span>04 / DATA</span><span>INTERNSHIP WORK</span></div>
+              <h3>Data Science Case Studies</h3>
+              <p>Population visualization, Titanic EDA, decision-tree prediction and Twitter sentiment analysis developed during data science internship work.</p>
+              <div class="chip-row"><span>Pandas</span><span>Matplotlib</span><span>NLP</span><span>ML</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section container">
+      <div class="section-head reveal">
+        <div>
+          <span class="section-kicker">05 / EDUCATION</span>
+          <h2>The foundation behind <span class="gradient-text">the work.</span></h2>
+        </div>
+        <p>Academic background and professional certifications.</p>
+      </div>
+
+      <div class="education-grid">
+        <article class="edu-main glass-card reveal">
+          <span class="section-kicker">2023 — PRESENT</span>
+          <h3>Bachelor of Engineering in Computer Science and Engineering</h3>
+          <p>PSNA College of Engineering and Technology</p>
+          <div class="cgpa"><strong>8.45</strong><span>CGPA</span></div>
+        </article>
+
+        <div class="edu-list">
+          <article class="glass-card edu-small reveal">
+            <span>2022 — 2023</span>
+            <h3>HSC — Computer Science</h3>
+            <p>Town Higher Secondary School</p>
+            <strong>90.3%</strong>
+          </article>
+          <article class="glass-card edu-small reveal delay-1">
+            <span>2020 — 2021</span>
+            <h3>SSLC</h3>
+            <p>Town Higher Secondary School</p>
+          </article>
+        </div>
+      </div>
+
+      <div class="certs reveal">
+        <div class="cert-head"><span class="section-kicker">CERTIFICATIONS</span><span class="cert-count">09</span></div>
+        <div class="cert-marquee">
+          <div class="cert-track">
+            <span>NPTEL — Java IoT</span><span>MongoDB</span><span>Machine Learning & Deep Learning — MathWorks</span>
+            <span>Data Visualization — IBM</span><span>Microsoft Power BI</span><span>Microsoft Azure Essentials</span>
+            <span>AWS Certification</span><span>Generative AI — Great Learning</span><span>PHP & MySQL Training</span>
+            <span>NPTEL — Java IoT</span><span>MongoDB</span><span>Machine Learning & Deep Learning — MathWorks</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <div class="contact-card reveal">
+          <div class="contact-orb"></div>
+          <span class="section-kicker">06 / CONTACT</span>
+          <h2>Let’s build something <span class="gradient-text">useful.</span></h2>
+          <p>For opportunities, collaborations or project discussions, reach out through email or LinkedIn.</p>
+          <div class="contact-actions">
+            <a class="btn btn-primary magnetic" href="mailto:karthickganesan1105@gmail.com">Email me <span>↗</span></a>
+            <a class="btn btn-ghost magnetic" href="https://linkedin.com/in/karthick-g-51b704298" target="_blank" rel="noopener">LinkedIn <span>↗</span></a>
+          </div>
+          <div class="contact-meta">
+            <span>9342110369</span><span>•</span><span>Kumbakonam, Tamil Nadu</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> Karthick Ganesan</span>
+      <span>Designed & built with HTML, CSS & JavaScript</span>
+    </div>
+  </footer>
+
+  <button class="back-top" id="backTop" aria-label="Back to top">↑</button>
+</body>
+</html>
